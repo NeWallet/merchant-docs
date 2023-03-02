@@ -40,6 +40,7 @@ module.exports = {
             'create_payment.md',
             'delete_payment.md',
             'get_payment.md',
+            'widget.md'
           ]
         }
       ],

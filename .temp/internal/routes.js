@@ -9,6 +9,34 @@ import GlobalLayout from "C:\\Users\\mayer\\Documents\\Projects\\newallet\\merch
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-c6b0ed64",
+    path: "/api/callback.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c6b0ed64").then(next)
+    },
+  },
+  {
+    name: "v-3e512222",
+    path: "/api/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3e512222").then(next)
+    },
+  },
+  {
+    path: "/api/index.html",
+    redirect: "/api/"
+  },
+  {
+    name: "v-3b6a88d4",
+    path: "/api/get_payment.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b6a88d4").then(next)
+    },
+  },
+  {
     name: "v-f5ce275c",
     path: "/api/create_payment.html",
     component: GlobalLayout,
@@ -25,39 +53,19 @@ export const routes = [
     },
   },
   {
-    name: "v-c6b0ed64",
-    path: "/api/callback.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c6b0ed64").then(next)
-    },
-  },
-  {
-    name: "v-3b6a88d4",
-    path: "/api/get_payment.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b6a88d4").then(next)
-    },
-  },
-  {
-    name: "v-3e512222",
-    path: "/api/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3e512222").then(next)
-    },
-  },
-  {
-    path: "/api/index.html",
-    redirect: "/api/"
-  },
-  {
     name: "v-203c045e",
     path: "/api/sign.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-203c045e").then(next)
+    },
+  },
+  {
+    name: "v-25aa1c50",
+    path: "/api/widget.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-25aa1c50").then(next)
     },
   },
   {

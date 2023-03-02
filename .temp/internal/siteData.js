@@ -30,6 +30,72 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Уведомление о платеже",
+      "frontmatter": {
+        "title": "Уведомление о платеже"
+      },
+      "regularPath": "/api/callback.html",
+      "relativePath": "api/callback.md",
+      "key": "v-c6b0ed64",
+      "path": "/api/callback.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общая информация",
+          "slug": "общая-информация"
+        },
+        {
+          "level": 2,
+          "title": "Что придёт?",
+          "slug": "что-придет"
+        }
+      ]
+    },
+    {
+      "title": "Общая информация",
+      "frontmatter": {
+        "title": "Общая информация"
+      },
+      "regularPath": "/api/",
+      "relativePath": "api/index.md",
+      "key": "v-3e512222",
+      "path": "/api/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общая информация",
+          "slug": "общая-информация"
+        }
+      ]
+    },
+    {
+      "title": "Получение информации о платеже",
+      "frontmatter": {
+        "title": "Получение информации о платеже"
+      },
+      "regularPath": "/api/get_payment.html",
+      "relativePath": "api/get_payment.md",
+      "key": "v-3b6a88d4",
+      "path": "/api/get_payment.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Общий API-reference",
+          "slug": "общии-api-reference"
+        },
+        {
+          "level": 2,
+          "title": "Пример на PHP",
+          "slug": "пример-на-php"
+        },
+        {
+          "level": 2,
+          "title": "Пример на NodeJS",
+          "slug": "пример-на-nodejs"
+        }
+      ]
+    },
+    {
       "title": "Создание платежа",
       "frontmatter": {
         "title": "Создание платежа"
@@ -84,72 +150,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Уведомление о платеже",
-      "frontmatter": {
-        "title": "Уведомление о платеже"
-      },
-      "regularPath": "/api/callback.html",
-      "relativePath": "api/callback.md",
-      "key": "v-c6b0ed64",
-      "path": "/api/callback.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Общая информация",
-          "slug": "общая-информация"
-        },
-        {
-          "level": 2,
-          "title": "Что придёт?",
-          "slug": "что-придет"
-        }
-      ]
-    },
-    {
-      "title": "Получение информации о платеже",
-      "frontmatter": {
-        "title": "Получение информации о платеже"
-      },
-      "regularPath": "/api/get_payment.html",
-      "relativePath": "api/get_payment.md",
-      "key": "v-3b6a88d4",
-      "path": "/api/get_payment.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Общий API-reference",
-          "slug": "общии-api-reference"
-        },
-        {
-          "level": 2,
-          "title": "Пример на PHP",
-          "slug": "пример-на-php"
-        },
-        {
-          "level": 2,
-          "title": "Пример на NodeJS",
-          "slug": "пример-на-nodejs"
-        }
-      ]
-    },
-    {
-      "title": "Общая информация",
-      "frontmatter": {
-        "title": "Общая информация"
-      },
-      "regularPath": "/api/",
-      "relativePath": "api/index.md",
-      "key": "v-3e512222",
-      "path": "/api/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Общая информация",
-          "slug": "общая-информация"
-        }
-      ]
-    },
-    {
       "title": "Формирование подписи",
       "frontmatter": {
         "title": "Формирование подписи"
@@ -168,6 +168,38 @@ export const siteData = {
           "level": 2,
           "title": "Проверка подписи результата платежа",
           "slug": "проверка-подписи-результата-платежа"
+        }
+      ]
+    },
+    {
+      "title": "Работа с виджетом",
+      "frontmatter": {
+        "title": "Работа с виджетом"
+      },
+      "regularPath": "/api/widget.html",
+      "relativePath": "api/widget.md",
+      "key": "v-25aa1c50",
+      "path": "/api/widget.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Как использовать?",
+          "slug": "как-использовать"
+        },
+        {
+          "level": 2,
+          "title": "NeBank.widget(params)",
+          "slug": "nebank-widget-params"
+        },
+        {
+          "level": 2,
+          "title": "Пример на чистом JS",
+          "slug": "пример-на-чистом-js"
+        },
+        {
+          "level": 2,
+          "title": "Пример на Angular",
+          "slug": "пример-на-angular"
         }
       ]
     },
@@ -235,7 +267,8 @@ export const siteData = {
             "callback.md",
             "create_payment.md",
             "delete_payment.md",
-            "get_payment.md"
+            "get_payment.md",
+            "widget.md"
           ]
         }
       ],
